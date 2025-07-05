@@ -1,0 +1,29 @@
+#container{
+    display : flex;
+    background-color: black;
+    flex-wrap: wrap; /*wrap onto multiple lines instead of one line */
+    min-width : 900px; 
+    min-height: 900px;
+    max-width: 900px;
+    min-height: 900px;
+}
+
+.squareClass{
+    background-color: blue;
+    box-sizing: border-box; /* height and width consist of content + padding and border */
+    /* width: 50px;
+    height: 50px; */
+    border-color: black;
+    border-style: solid;
+    /* border-width: 10px; */
+}
+
+#buttonContainer{
+    display: flex;
+    justify-content: center; /*horizontally center*/
+    max-width: 800px;
+}
+
+/* #popup{
+    justify-content: center;
+} */
